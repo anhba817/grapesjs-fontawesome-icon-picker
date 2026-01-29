@@ -1,0 +1,24 @@
+{
+  "name": "grapesjs-fontawesome-icon-picker",
+  "version": "1.0.1",
+  "description": "Grapesjs Fontawesome Icon Picker",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anhba817/grapesjs-fontawesome-icon-picker.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs": "^0.22.14",
+    "grapesjs-cli": "^4.1.3"
+  },
+  "license": "MIT"
+}
