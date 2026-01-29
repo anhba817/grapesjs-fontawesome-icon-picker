@@ -1,5 +1,5 @@
 import { type Editor } from "grapesjs";
-import iconList from "./iconList";
+import { iconList } from "./iconList";
 
 export default (editor: Editor, opts = {}) => {
   const traits = editor.Traits;

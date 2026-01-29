@@ -8,8 +8,7 @@ import { FontAwesomePluginOptions } from "./types";
 export default (editor: Editor, opts: FontAwesomePluginOptions = {}) => {
   const options: FontAwesomePluginOptions = {
     ...{
-      fontAwesomeCdnUrl:
-        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+      // default options
     },
     ...opts,
   };
