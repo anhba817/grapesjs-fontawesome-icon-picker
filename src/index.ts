@@ -21,14 +21,4 @@ export default (editor: Editor, opts: FontAwesomePluginOptions = {}) => {
   loadComponents(editor, options);
   // Add blocks
   loadBlocks(editor, options);
-
-  // TODO Remove
-  editor.on("load", () =>
-    editor.addComponents(
-      `<div style="margin:100px; padding:25px;">
-            Content loaded from the plugin
-        </div>`,
-      { at: 0 },
-    ),
-  );
 };
