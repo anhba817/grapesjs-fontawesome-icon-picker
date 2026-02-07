@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-fontawesome-icon-picker",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Grapesjs Fontawesome Icon Picker",
   "main": "dist/index.js",
   "repository": {

@@ -1,5 +1,5 @@
 import { type Editor } from "grapesjs";
-import { FONTAWESOME_VERSION } from "./iconList";
+import { FONTAWESOME_CDN } from "./iconList";
 import { FontAwesomePluginOptions } from "./types";
 
 export default (editor: Editor, opts: FontAwesomePluginOptions = {}) => {
@@ -42,7 +42,7 @@ export default (editor: Editor, opts: FontAwesomePluginOptions = {}) => {
     const head = editor.Canvas.getDocument().head;
     head.insertAdjacentHTML(
       "beforeend",
-      `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/${FONTAWESOME_VERSION}/css/all.min.css">`,
+      `<link rel="stylesheet" href="${FONTAWESOME_CDN}">`,
     );
   });
 };

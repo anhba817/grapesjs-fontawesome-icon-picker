@@ -5,6 +5,8 @@ import loadTraits from "./traits";
 import loadStyles from "./styles";
 import { FontAwesomePluginOptions } from "./types";
 
+export { FONTAWESOME_CDN } from "./iconList";
+
 export default (editor: Editor, opts: FontAwesomePluginOptions = {}) => {
   const options: FontAwesomePluginOptions = {
     ...{
